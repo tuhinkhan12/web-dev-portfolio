@@ -22,7 +22,20 @@ nav{
     font-weight: 800;
     font-size: 45px;
 }
+/* section part start */
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818 ;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
 /* shared style */
+.secondary-bg{
+    background-color:  #fff8f3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -49,4 +62,49 @@ nav li a{
     color: white;
     padding: 18px 35px;
 
+}
+/* header style */
+.header{
+    background-image: url("../images/developer.png"), url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* banner style */
+.banner{
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-pic{
+    width: 580px;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 130px;
+}
+/* main-style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-items{
+    display: flex;
+    justify-content:space-around ;
+}
+.item-description{
+    font-weight: 600;
 }
